@@ -1,4 +1,4 @@
-package org.example.expensemanager;
+package core.util;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;

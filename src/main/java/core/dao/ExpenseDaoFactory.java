@@ -1,4 +1,4 @@
-package org.example.expensemanager;
+package core.dao;
 
 import io.github.cdimascio.dotenv.Dotenv;
 

@@ -1,4 +1,6 @@
-package org.example.expensemanager;
+package core.dao;
+
+import core.model.Expense;
 
 import java.util.List;
 

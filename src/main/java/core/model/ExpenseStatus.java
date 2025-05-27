@@ -1,4 +1,4 @@
-package org.example.expensemanager;
+package core.model;
 
 public enum ExpenseStatus {
     SMALL_EXPENSE("Мелкий расход"),

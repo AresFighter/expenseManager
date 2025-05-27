@@ -1,4 +1,4 @@
-package org.example.expensemanager;
+package core.model;
 
 import java.time.LocalDateTime;
 

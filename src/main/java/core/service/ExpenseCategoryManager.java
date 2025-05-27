@@ -1,4 +1,4 @@
-package org.example.expensemanager;
+package core.service;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

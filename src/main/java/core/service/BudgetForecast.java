@@ -1,4 +1,7 @@
-package org.example.expensemanager;
+package core.service;
+
+import core.model.Expense;
+import core.dao.ExpenseDao;
 
 import java.time.LocalDate;
 import java.time.Month;
