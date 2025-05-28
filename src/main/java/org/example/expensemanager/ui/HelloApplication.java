@@ -1,4 +1,4 @@
-package org.example.expensemanager;
+package org.example.expensemanager.ui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

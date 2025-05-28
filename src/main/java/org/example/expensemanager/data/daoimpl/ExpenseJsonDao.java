@@ -1,10 +1,11 @@
-package core.dao;
+package org.example.expensemanager.data.daoimpl;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import core.model.Expense;
-import core.util.LocalDateTimeAdapter;
+import org.example.expensemanager.business.model.Expense;
+import org.example.expensemanager.data.ExpenseDao;
+import org.example.expensemanager.data.LocalDateTimeAdapter;
 
 import java.io.*;
 import java.lang.reflect.Type;

@@ -1,6 +1,9 @@
-package core.dao;
+package org.example.expensemanager.data;
 
 import io.github.cdimascio.dotenv.Dotenv;
+import org.example.expensemanager.data.daoimpl.ExpenseJsonDao;
+import org.example.expensemanager.data.daoimpl.ExpenseMemoryDao;
+import org.example.expensemanager.data.daoimpl.ExpensePostgresDao;
 
 public class ExpenseDaoFactory {
     private final Dotenv dotenv;

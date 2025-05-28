@@ -1,6 +1,7 @@
-package core.dao;
+package org.example.expensemanager.data.daoimpl;
 
-import core.model.Expense;
+import org.example.expensemanager.business.model.Expense;
+import org.example.expensemanager.data.ExpenseDao;
 
 import java.sql.*;
 import java.time.LocalDateTime;

@@ -1,12 +1,12 @@
-package org.example.expensemanager;
+package org.example.expensemanager.ui;
 
-import core.dao.ExpenseDao;
-import core.dao.ExpenseDaoFactory;
-import core.model.Expense;
-import core.model.ExpenseStatus;
-import core.service.BudgetForecast;
-import core.service.ExpenseCategoryManager;
-import core.service.ExpenseService;
+import org.example.expensemanager.data.ExpenseDao;
+import org.example.expensemanager.data.ExpenseDaoFactory;
+import org.example.expensemanager.business.model.Expense;
+import org.example.expensemanager.business.model.ExpenseStatus;
+import org.example.expensemanager.business.BudgetForecast;
+import org.example.expensemanager.business.ExpenseCategoryManager;
+import org.example.expensemanager.service.ExpenseService;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;

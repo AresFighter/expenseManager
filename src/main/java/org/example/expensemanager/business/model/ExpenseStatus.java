@@ -1,4 +1,4 @@
-package core.model;
+package org.example.expensemanager.business.model;
 
 /**
  * Перечисление возможных статусов расхода.

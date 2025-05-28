@@ -17,4 +17,16 @@ module org.example.expensemanager {
     opens core.dao to com.google.gson, javafx.fxml;
     exports core.util;
     opens core.util to com.google.gson, javafx.fxml;
+    exports org.example.expensemanager.ui;
+    opens org.example.expensemanager.ui to com.google.gson, javafx.fxml;
+    exports org.example.expensemanager.data;
+    opens org.example.expensemanager.data to com.google.gson, javafx.fxml;
+    exports org.example.expensemanager.service;
+    opens org.example.expensemanager.service to com.google.gson, javafx.fxml;
+    exports org.example.expensemanager.business;
+    opens org.example.expensemanager.business to com.google.gson, javafx.fxml;
+    exports org.example.expensemanager.data.daoimpl;
+    opens org.example.expensemanager.data.daoimpl to com.google.gson, javafx.fxml;
+    exports org.example.expensemanager.business.model;
+    opens org.example.expensemanager.business.model to com.google.gson, javafx.fxml;
 }

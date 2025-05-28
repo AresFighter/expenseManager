@@ -1,10 +1,9 @@
-package core.service;
+package org.example.expensemanager.service;
 
-import core.dao.ExpenseDao;
-import core.model.Expense;
-import core.service.ExpenseCategoryManager;
+import org.example.expensemanager.business.ExpenseCategoryManager;
+import org.example.expensemanager.data.ExpenseDao;
+import org.example.expensemanager.business.model.Expense;
 
-import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
 
