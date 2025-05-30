@@ -1,8 +1,9 @@
 package org.example.expensemanager.business.model;
 
 /**
- * Перечисление возможных статусов расхода.
- * Определяется автоматически на основе суммы.
+ * Перечисление статусов расхода на основе суммы.
+ * <p>
+ * Используется в классе {@link Expense} для автоматической классификации трат.
  */
 public enum ExpenseStatus {
 
@@ -18,6 +19,10 @@ public enum ExpenseStatus {
     /** Человеко-читаемое название статуса. */
     private final String displayName;
 
+    /**
+     * Создает статус с указанным названием.
+     * @param displayName название для отображения (не может быть null)
+     */
     ExpenseStatus(String displayName) {
         this.displayName = displayName;
     }
