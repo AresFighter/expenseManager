@@ -60,16 +60,16 @@
 - Maven 3.6+
 
 ## Концепция проекта
-[Концепция проекта]()
+[Концепция проекта](https://github.com/AresFighter/expenseManager/blob/master/projectConcept.md)
 
 ## Сценарии использования
-[Сценарии использования]()
+[Сценарии использования](https://github.com/AresFighter/expenseManager/blob/master/usageScenarios.md)
 
 ## Техническое задание
-[Техническое задание]()
+[Техническое задание](https://github.com/AresFighter/expenseManager/blob/master/technicalSpecification.md)
 
 ## Руководство пользователя 
-[Руководство пользователя]()
+[Руководство пользователя](https://github.com/AresFighter/expenseManager/blob/master/usersGuide.md)
 
 ## Демонстрация работы программы
 ![Работа программы](https://github.com/AresFighter/expenseManager/blob/master/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B.png)
